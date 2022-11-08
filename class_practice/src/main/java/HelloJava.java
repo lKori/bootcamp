@@ -55,6 +55,14 @@ public class HelloJava {
         p.learn();
         p.eat();
         p.walk();
-        System.out.println();
+        System.out.println(p.name);
+
+        // Programmer 객체 생성
+        Programmer pg = new Programmer();
+        pg.name = "박해커";
+        pg.age = 26;
+        pg.learn(); // Person 클래스에서 상속 받아 사용가
+        pg.coding(); // Programmer의 개별 기능
+        System.out.println(pg.name);
     }
 }
