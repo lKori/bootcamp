@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="78d5657f-6b26-47b0-b86d-6eddeaee7b12" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BurgerQueen/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BurgerQueen/app/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BurgerQueen/app/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BurgerQueen/app/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BurgerQueen/app/OrderApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BurgerQueen/app/OrderApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BurgerQueen/app/Product/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BurgerQueen/app/Product/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BurgerQueen/app/Product/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BurgerQueen/app/Product/ProductRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BurgerQueen/app/Product/subproduct/BurgerSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BurgerQueen/app/Product/subproduct/BurgerSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BurgerQueen/app/Product/subproduct/Drink.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BurgerQueen/app/Product/subproduct/Drink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BurgerQueen/app/Product/subproduct/Hamburger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BurgerQueen/app/Product/subproduct/Hamburger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BurgerQueen/app/Product/subproduct/Side.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BurgerQueen/app/Product/subproduct/Side.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/OrderApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/OrderApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Product/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Product/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Product/subproduct/BurgerSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Product/subproduct/BurgerSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Product/subproduct/Drink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Product/subproduct/Drink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Product/subproduct/Hamburger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Product/subproduct/Hamburger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Product/subproduct/Side.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Product/subproduct/Side.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class_practice/out/production/class_practice/main/java/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../class_practice/out/production/class_practice/main/java/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class_practice/src/main/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../class_practice/src/main/java/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_project" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_project" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JtLm4s3ObAV8tXqXTMG0PdmALe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.Main" />
+      <module name="BurgerQueen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78d5657f-6b26-47b0-b86d-6eddeaee7b12" name="Changes" comment="" />
+      <created>1672892590936</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672892590936</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -5,19 +5,18 @@ import java.util.*;
 
 public class test {
     public static void main(String[] args) {
-        int num = 5;
+        int base = 5;
+        int exponent = 22;
 
-        System.out.println(fibonacci(num));
-    }
+        long result = base;
 
-    public static int fibonacci(int num) {
-        if(num == 0) {
-            return 0;
-        }
-        if(num == 1) {
-            return 1;
+        for(int i = 1; i < exponent; i++) {
+            long moded = result % 94906249;
+            result = moded * base;
         }
 
-        return fibonacci(num - 1) + fibonacci(num - 2);
+        result = result % 94906249;
+
+        System.out.println(result);
     }
 }

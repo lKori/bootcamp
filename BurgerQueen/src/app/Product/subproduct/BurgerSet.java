@@ -1,21 +1,21 @@
-package app.Product.subproduct;
+package app.product.subproduct;
 
-import app.Product.Product;
+import app.product.Product;
 
 public class BurgerSet extends Product {
-    private Hamburger hamburger;
+    private Hamburger hambuger;
     private Side side;
     private Drink drink;
 
-    public BurgerSet(int id, String name, int price, int kcal, Hamburger hamburger, Side side, Drink drink) {
-        super(id, name, price, kcal);
-        this.hamburger = hamburger;
+    public BurgerSet(String name, int price, int kcal, Hamburger hambuger, Side side, Drink drink) {
+        super(name, price, kcal);
+        this.hambuger = hambuger;
         this.side = side;
         this.drink = drink;
     }
 
-    public Hamburger getHamburger() {
-        return hamburger;
+    public Hamburger getHambuger() {
+        return hambuger;
     }
 
     public Side getSide() {

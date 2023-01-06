@@ -1,9 +1,9 @@
 package app;
 
-import app.Product.Product;
-import app.Product.subproduct.Drink;
-import app.Product.subproduct.Hamburger;
-import app.Product.subproduct.Side;
+import app.product.Product;
+import app.product.subproduct.Drink;
+import app.product.subproduct.Hamburger;
+import app.product.subproduct.Side;
 
 public class Menu {
     private Product[] products;
@@ -13,55 +13,65 @@ public class Menu {
     }
 
     public void printMenu() {
-        System.out.println("[❤️] 메뉴");
+        System.out.println("[🔻]메뉴");
         System.out.println("-".repeat(60));
 
-        printHamburgers();
-        printSides();
-        printDrinks();
+        System.out.println("🍔 햄버거");
+        // 햄버거 출력
+        printHamburgers(true);
+        System.out.println();
+
+        System.out.println("🍟 사이드");
+        // 사이드 출력
+        printSides(true);
+        System.out.println();
+
+        System.out.println("🥤음료");
+        // 음료 출력
+        printDrinks(true);
+        System.out.println();
 
         System.out.println();
-        System.out.println("🧺 (0) 장바구니");
-        System.out.println("📦 (+) 주문하기");
+        System.out.println("(0) 장바구니");
+        System.out.println("(+) 주문하기");
         System.out.println("-".repeat(60));
-        System.out.print("[📣] 메뉴를 선택해주세요 : ");
+        System.out.println("[📢] 메뉴를 선택해주세요 : ");
     }
 
-    private void printDrinks() {
-        System.out.println("🥤 음료");
-//        여기에서 음료 출력
+    protected void printDrinks(boolean printPrice) {
         for(Product product : products) {
             if(product instanceof Drink) {
-                printEachMenu(product);
+                printEachMenu(product, printPrice);
             }
         }
         System.out.println();
     }
 
-    private void printSides() {
-        System.out.println("🍟 사이드");
-//        여기에서 사이드 출력
+    protected void printSides(boolean printPrice) {
         for(Product product : products) {
             if(product instanceof Side) {
-                printEachMenu(product);
+                printEachMenu(product, printPrice);
             }
         }
         System.out.println();
     }
 
-    private void printHamburgers() {
-        System.out.println("🍔 햄버거");
-//        여기에서 햄버거 출력
+    private void printHamburgers(boolean printPrice) {
         for(Product product : products) {
             if(product instanceof Hamburger) {
-                printEachMenu(product);
+                printEachMenu(product, printPrice);
             }
         }
         System.out.println();
     }
 
-    private static void printEachMenu(Product product) {
-        System.out.printf("   (%d) %s  %5dKcal  %5d원%n",
-                product.getId(), product.getName(), product.getKcal(), product.getPrice());
+    private static void printEachMenu(Product product, boolean printPrice) {
+        if(printPrice) {
+            System.out.printf("    (%d) %s %5dKcal %5d원\n", +
+                    product.getId(), product.getName(), product.getKcal(), product.getPrice());
+        } else {
+            System.out.printf("    (%d) %s %5dKcal\n", +
+                    product.getId(), product.getName(), product.getKcal());
+        }
     }
 }

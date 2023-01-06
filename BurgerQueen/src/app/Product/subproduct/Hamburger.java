@@ -1,6 +1,6 @@
-package app.Product.subproduct;
+package app.product.subproduct;
 
-import app.Product.Product;
+import app.product.Product;
 
 public class Hamburger extends Product {
     private boolean isBurgerSet;
@@ -16,8 +16,8 @@ public class Hamburger extends Product {
         return isBurgerSet;
     }
 
-    public void setIsBurgerSet(boolean isBurgerSet) {
-        this.isBurgerSet = isBurgerSet;
+    public void setIsBurgerSet(boolean burgerSet) {
+        isBurgerSet = burgerSet;
     }
 
     public int getBurgerSetPrice() {

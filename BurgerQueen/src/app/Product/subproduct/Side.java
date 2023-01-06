@@ -1,12 +1,12 @@
-package app.Product.subproduct;
+package app.product.subproduct;
 
-import app.Product.Product;
+import app.product.Product;
 
 public class Side extends Product {
     private int ketchup;
 
     public Side(int id, String name, int price, int kcal, int ketchup) {
-        super(id,name, price, kcal);
+        super(id, name, price, kcal);
         this.ketchup = ketchup;
     }
 

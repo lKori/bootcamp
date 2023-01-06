@@ -1,6 +1,6 @@
-package app.Product.subproduct;
+package app.product.subproduct;
 
-import app.Product.Product;
+import app.product.Product;
 
 public class Drink extends Product {
     private boolean hasStraw;
